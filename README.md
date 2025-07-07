@@ -24,9 +24,12 @@ Built with:
 
 ## 📸 Screenshots
 
-| Homepage                             | Secret Shown                              | Not Found Page                          |
-|--------------------------------------|--------------------------------------------|-----------------------------------------|
-| ![home](https://via.placeholder.com/300x180?text=Home+Page) | ![show](https://via.placeholder.com/300x180?text=Secret+Revealed) | ![notfound](https://via.placeholder.com/300x180?text=Not+Found) |
+
+![home](https://github.com/user-attachments/assets/d8f88a51-7882-4515-baca-78dbe5a81682) 
+
+![show](https://github.com/user-attachments/assets/82b2f889-0fce-47cb-abfe-1d697d473f5c) 
+
+![not found](https://github.com/user-attachments/assets/8b941a66-b5fb-4ac3-bcb0-3bd4039f89dc) 
 
 ---
 
