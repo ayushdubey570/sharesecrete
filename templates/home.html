@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShareSecrete - One-Time Secret</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-gray-800 text-white min-h-screen flex items-center justify-center">
+  <div class="bg-gray-850 shadow-lg rounded-lg p-8 w-full max-w-xl">
+    <h1 class="text-4xl font-bold text-center text-green-400 mb-6">🔐 ShareSecrete</h1>
+    <p class="text-center mb-4 text-gray-300">Create a one-time, self-destructing secret link</p>
+    <form method="POST">
+      <textarea name="secret" required class="w-full p-4 rounded bg-gray-800 text-white mb-4 focus:outline-none focus:ring-2 focus:ring-green-500" rows="4" placeholder="Enter your secret here..."></textarea>
+      <button type="submit" class="w-full bg-green-500 hover:bg-green-600 px-4 py-2 rounded text-white font-semibold transition">Generate Secret Link</button>
+    </form>
+
+    {% if link %}
+    <div class="mt-6 bg-gray-800 p-4 rounded text-center border border-green-500">
+      <p class="text-sm text-gray-300">Share this link (usable only once):</p>
+      <p class="mt-2 font-mono text-green-400 break-all">{{ link }}</p>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>
